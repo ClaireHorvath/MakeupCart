@@ -13,6 +13,3 @@ CREATE TABLE makeupItems (
     name VARCHAR(50),
     quantity BOOLEAN DEFAULT false
 );
-
-INSERT INTO makeupItems (name, quantity)
-VALUES ('Sample 1', 1), ('Sample 2', 1);
