@@ -1,0 +1,77 @@
+[
+    {
+      "id": 1,
+      "name": "Moisturizer",
+      "rating": 4
+    },
+    {
+      "id": 2,
+      "name": "Primer",
+      "rating": 4
+    },
+    {
+      "id": 3,
+      "name": "Foundation",
+      "rating": 4
+    },
+    {
+      "id": 4,
+      "name": "Concealer",
+      "rating": 4
+    },
+    {
+      "id": 5,
+      "name": "Setting Powder",
+      "rating": 4
+    },
+    {
+      "id": 6,
+      "name": "Contour",
+      "rating": 4
+    },
+    {
+      "id": 7,
+      "name": "Bronzer",
+      "rating": 4
+    },
+    {
+      "id": 8,
+      "name": "Blush",
+      "rating": 4
+    },
+    {
+      "id": 9,
+      "name": "Highlighter",
+      "rating": 5
+    },
+    {
+      "id": 10,
+      "name": "Eyebrows",
+      "rating": 5
+    },
+    {
+      "id": 11,
+      "name": "Eyeshadow",
+      "rating": 4
+    },
+    {
+      "id": 12,
+      "name": "Eyeliner",
+      "rating": 4
+    },
+    {
+      "id": 13,
+      "name": "Mascara",
+      "rating": 5
+    },
+    {
+      "id": 14,
+      "name": "Lipstick",
+      "rating": 4
+    },
+    {
+      "id": 15,
+      "name": "Setting Spray",
+      "rating": 4
+    }
+  ]

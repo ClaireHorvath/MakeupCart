@@ -1,0 +1,32 @@
+body {
+    height: 200vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: palevioletred;
+  }
+  
+  header {
+    margin: 50px;
+  }
+  
+  form {
+    width: 100%;
+    padding: 55px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 20px;
+    color: whitesmoke;
+    background-color: rgb(78, 73, 73);
+  }
+.trash-can {
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    right: 250px;
+    cursor: pointer;
+    background-color: palevioletred;
+  }

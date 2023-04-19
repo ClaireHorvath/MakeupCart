@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+
+    <header>
+        <h1>My Shopping Cart</h1>
+      </header>
+  
+      <form id="new-makeup-item-form">
+        <h3>Shop Our Inventory:</h3>
+        <input placeholder="Item Name" id="new-makeup-item-name"/>
+        <select id="new-makeup-item-quantity">
+          <option selected disabled>Select Quantity</option>
+          <option>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+        </select>
+        <button type="submit">Submit</button>
+        <button type="reset">Clear</button>
+      </form>
+  
+      <section id="cart-area">
+        <div id="makeup-items-header" class="makeup-items">
+          <h3 class="makeup-item-added">Added</h3>
+          <h3 class="makeup-item-name">Name</h3>
+          <h3 class="makeup-item-quantity">Quantity</h3>
+        </div>
+        
+        <div id="makeup-items-display">
+          <div class="makeup-items">
+            <p class="makeup-item-name">Sample 1</p>
+            <p class="makeup-item-quantity">1</p>
+            <img
+            class='trash-can'
+            src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfj0ESRF5m3BX1vxPdgGe-bkYSepmrOD0uXdBGEsYRQw&usqp=CAU&ec=48665701'
+            alt='trash'
+          />
+            <p class="makeup-item-name">Sample 2</p>
+            <p class="makeup-item-quantity">1</p>
+            <img
+              class='trash-can'
+              src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfj0ESRF5m3BX1vxPdgGe-bkYSepmrOD0uXdBGEsYRQw&usqp=CAU&ec=48665701'
+              alt='trash'
+            />
+          </div>
+        </div>
+      </section>
+    
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
